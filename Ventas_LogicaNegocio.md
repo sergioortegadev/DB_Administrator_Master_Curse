@@ -61,3 +61,31 @@
 ## Modelo Relacional de la DB
 
 ![Modelo Relacional](./Ventas_LogicaNegocio_ModeloRelacional_DB.png)
+
+---
+
+## Reglas de negocio
+
+### Para todas las entidades
+
+1. Crear un cliente/producto/venta/item/pais
+1. Leer un cliente/producto/venta/item/pais
+1. Leer todos los cliente/producto/venta/item/pais
+1. Modificar un cliente/producto/venta/item/pais
+1. Borrar un cliente/producto/venta/item/pais
+
+### Para la entidad product
+
+1. En cada venta restar los productos involucrados a su stock
+
+### Para la entidad sales
+
+1. Leer las ventas de un producto
+1. Leer las ventas de un cliente
+
+### Para la entidad item
+
+1. Leer los items de un producto
+1. Leer los items de un cliente
+
+---
